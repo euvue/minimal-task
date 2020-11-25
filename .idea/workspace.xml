@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14c72455-3bec-41b1-a3c3-6ac094550226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/edit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/IconDelete.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/IconEdit.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/delete.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +68,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606269674606</updated>
-      <workItem from="1606269675653" duration="5157000" />
+      <workItem from="1606269675653" duration="5569000" />
+      <workItem from="1606342375025" duration="302000" />
     </task>
     <servers />
   </component>
@@ -89,6 +86,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
