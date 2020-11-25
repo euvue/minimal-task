@@ -1,3 +1,16 @@
+<script>
+import IconDelete from "./components/IconDelete.vue";
+import IconEdit from "./components/IconEdit.vue";
+export default {
+  name: 'App',
+  components: {
+    IconEdit,
+    IconDelete
+  }
+}
+</script>
+
+
 <template>
   <main class="main-wrapper">
     <h1 class="page-title"> Minimal Task</h1>
@@ -21,19 +34,52 @@
         </li>
       </ul>
     </nav>
+    <ul class="task-list">
+      <li class="task-list-item">
+        <input type="checkbox"
+        class="task-list-checkbox">
+        <p class="task-list-text">Go to the grocery store</p>
+        <div class="task-list-cta">
+          <p><IconEdit></IconEdit>Edit</p>
+          <p><IconDelete></IconDelete>Delete</p>
+        </div>
+      </li>
+    </ul>
   </main>
 </template>
 
-<script>
 
-
-export default {
-  name: 'App'
-}
-</script>
 <style>
 html {
   background-color: #fbfbfb;
+}
+
+.task-list-checkbox {
+  display: block;
+}
+
+.task-list {
+  padding: 0;
+}
+
+.task-list-item {
+  border: 1px solid #f6f6f6;
+  box-shadow: 2px 2px 8px 0px #c0c0c0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.task-list-cta {
+  display: flex;
+  column-gap: 16px;
+}
+
+.task-list-text {
+  margin-left: 12px;
+  font-weight: bold;
+  flex: 1;
 }
 
 .tab-wrapper {
