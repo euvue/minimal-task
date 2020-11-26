@@ -1,11 +1,13 @@
 <script>
 import IconDelete from "./components/IconDelete.vue";
 import IconEdit from "./components/IconEdit.vue";
+import IconCircle from "./components/IconCircle.vue";
 export default {
   name: 'App',
   components: {
-    IconEdit,
-    IconDelete
+    IconCircle,
+    IconDelete,
+    IconEdit
   }
 }
 </script>
@@ -40,8 +42,8 @@ export default {
         class="task-list-checkbox">
         <p class="task-list-text">Go to the grocery store</p>
         <div class="task-list-cta">
-          <p><IconEdit></IconEdit>Edit</p>
-          <p><IconDelete></IconDelete>Delete</p>
+          <p><IconEdit /><span class="sr-only">Edit</p>
+          <p><IconDelete /><span class="sr-only">Delete</p>
         </div>
       </li>
     </ul>
@@ -119,7 +121,7 @@ html {
 .new-task-input {
   padding: 16px;
   font-weight: 600;
-  color: 959595;
+  color: #959595;
   flex: 1;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
