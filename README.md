@@ -10,4 +10,6 @@ I am following along to learn how make this todo app.
 The code consists 
 - Vite
 - Vue 3
+- HTML
+- CSS
 
