@@ -46,6 +46,15 @@ export default {
           <p><IconDelete /><span class="sr-only">Delete</p>
         </div>
       </li>
+      <li class="task-list-item">
+        <input type="checkbox"
+               class="task-list-checkbox">
+        <p class="task-list-text">Go to the grocery store</p>
+        <div class="task-list-cta">
+          <p><IconEdit /><span class="sr-only">Edit</p>
+          <p><IconDelete /><span class="sr-only">Delete</p>
+        </div>
+      </li>
     </ul>
   </main>
 </template>
@@ -71,6 +80,12 @@ html {
   display: flex;
   align-items: center;
   padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.task-list:focus,
+.task-list:hover {
+
 }
 
 .task-list-cta {
