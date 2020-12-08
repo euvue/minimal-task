@@ -1,4 +1,5 @@
 <script>
+import { reactive, toRefs } from 'vue'
 import IconDelete from "./components/IconDelete.vue";
 import IconEdit from "./components/IconEdit.vue";
 import IconCircle from "./components/IconCircle.vue";
@@ -8,6 +9,22 @@ export default {
     IconCircle,
     IconDelete,
     IconEdit
+},
+  setup() {
+    const state = reactive ({
+      newTaskInput: '',
+      taskList: []
+    })
+
+    const addTask = () => {
+      state.taskList.push(state.newTaskInput)
+      state.newTaskInput = ''
+    }
+
+    return {
+     ...toRefs(state),
+     addTask
+    }
   }
 }
 </script>
@@ -20,7 +37,10 @@ export default {
     <div class="new-task-wrapper">
       <input type="text"
              placeholder="Type a new to-do item"
-             class="new-task-input"/>
+             class="new-task-input"
+             v-model="newTaskInput"
+             @keyup.enter="addTask"
+      />
     <button class="new-task-button">+ Add</button>
     </div>
     <nav>
@@ -37,28 +57,15 @@ export default {
       </ul>
     </nav>
     <ul class="task-list">
-      <li class="task-list-item">
+      <li v-for="taskItem in taskList" :key="taskItem" class="task-list-item">
         <input type="checkbox"
                class="task-list-checkbox">
-        <p class="task-list-text">Go to the grocery store</p>
+        <p class="task-list-text">{{ taskItem }}</p>
         <div class="task-list-cta">
           <p><IconEdit class="task-list-cta-icon"/><span class="sr-only"
           >Edit</span>
           </p>
           <p><IconDelete class="task-list-cta-icon"/><span class="sr-only"
-          >Delete</span>
-          </p>
-        </div>
-      </li>
-      <li class="task-list-item">
-        <input type="checkbox"
-               class="task-list-checkbox">
-        <p class="task-list-text">Go to the grocery store</p>
-        <div class="task-list-cta">
-          <p><IconEdit class="task-list-cta-icon" /><span class="sr-only"
-          >Edit</span>
-          </p>
-          <p><IconDelete class="task-list-cta-icon" /><span class="sr-only"
           >Delete</span>
           </p>
         </div>
