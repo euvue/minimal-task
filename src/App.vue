@@ -82,10 +82,10 @@ html {
 }
 
 .task-list-cta-icon .icon-object {
-  fill: red;
+  fill: #2d2d2d;
 }
 
-.task-list-cta-icon:hover .icon object {
+.task-list-cta-icon:hover .icon-object {
   fill: #0728bf;
 }
 
@@ -131,6 +131,7 @@ html {
 .tab-item:hover .tab-button{
   color: #0728bf;
 }
+
 .tab-item.is-active {
   border-bottom: 3px solid #0631f8;
 }

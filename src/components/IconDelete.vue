@@ -32,7 +32,10 @@
 
     <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-1036.3622)">
       <g transform="translate(36,0)" id="g4996"/>
-      <path style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="M 6.5 2 L 6.5 3 L 3.5 3 L 3.5 4 L 12.5 4 L 12.5 3 L 9.5 3 L 9.5 2 L 6.5 2 z M 4.5 5 L 4.5 14 L 11.5 14 L 11.5 5 L 4.5 5 z M 5.5 6 L 6.5 6 L 6.5 13 L 5.5 13 L 5.5 6 z M 7.5 6 L 8.5 6 L 8.5 13 L 7.5 13 L 7.5 6 z M 9.5 6 L 10.5 6 L 10.5 13 L 9.5 13 L 9.5 6 z " transform="translate(0,1036.3622)" id="rect6170"/>
+      <path style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;
+      fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" d="M 6.5 2 L 6.5 3 L 3.5 3 L 3.5 4 L 12.5 4 L 12.5 3 L 9.5 3 L 9.5 2 L 6.5 2 z M 4.5 5 L 4.5 14 L 11.5 14 L 11.5 5 L 4.5 5 z M 5.5 6 L 6.5 6 L 6.5 13 L 5.5 13 L 5.5 6 z M 7.5 6 L 8.5 6 L 8.5 13 L 7.5 13 L 7.5 6 z M 9.5 6 L 10.5 6 L 10.5 13 L 9.5 13 L 9.5 6 z " transform="translate(0,1036.3622)" id="rect6170"/>
+
+
     </g>
 
     <metadata>
