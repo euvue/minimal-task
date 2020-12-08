@@ -39,7 +39,7 @@ export default {
     <ul class="task-list">
       <li class="task-list-item">
         <input type="checkbox"
-        class="task-list-checkbox">
+               class="task-list-checkbox">
         <p class="task-list-text">Go to the grocery store</p>
         <div class="task-list-cta">
           <p><IconEdit class="task-list-cta-icon"/><span class="sr-only"
@@ -99,9 +99,9 @@ html {
   margin-bottom: 16px;
 }
 
-.task-list:focus,
-.task-list:hover {
-
+.task-list-item:focus,
+.task-list-item:hover {
+  border: 1px solid #0631f8;
 }
 
 .task-list-cta {
@@ -117,11 +117,12 @@ html {
 
 .tab-wrapper {
   display: flex;
-  column-gap: 30px;
+  grid-column-gap: 30px;
   list-style: none;
   margin: 45px 0;
   padding: 0;
 }
+
 
 .tab-item {
   padding-bottom: 6px;
